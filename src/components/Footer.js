@@ -4,8 +4,8 @@ import logo from "../assets/img/logo.webp";
 import navIcon1 from "../assets/img/nav-icon1.svg";
 import navIcon2 from "../assets/img/nav-icon2.svg";
 import navIcon3 from "../assets/img/nav-icon3.svg";
-import github from "../assets/img/github.svg"
-import github3 from "../assets/img/github3.svg"
+import github from "../assets/img/github.svg";
+import github3 from "../assets/img/github3.svg";
 
 export const Footer = () => {
   return (
@@ -18,7 +18,7 @@ export const Footer = () => {
           </Col>
           <Col size={12} sm={6} className='text-center text-sm-end'>
             <div className='social-icon'>
-              <a href='github.com/tbakare' target='_blank'>
+              <a href='https://github.com/tbakare' target='_blank'>
                 <img src={github} alt='Icon' />
               </a>
               <a
@@ -26,7 +26,9 @@ export const Footer = () => {
                 target='_blank'>
                 <img src={navIcon1} alt='Icon' />
               </a>
-              <a href='https://www.facebook.com/temiloluwa.bakare10' target="_blank">
+              <a
+                href='https://www.facebook.com/temiloluwa.bakare10'
+                target='_blank'>
                 <img src={navIcon2} alt='Icon' />
               </a>
               <a href='https://www.instagram.com/t_bakks/' target='_blank'>

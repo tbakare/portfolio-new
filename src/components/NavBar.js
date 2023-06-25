@@ -71,7 +71,7 @@ export const NavBar = () => {
             </Nav>
             <span className='navbar-text'>
               <div className='social-icon'>
-                <a href='github.com/tbakare' target='_blank'>
+                <a href='https://github.com/tbakare' target='_blank'>
                   <img src={github} alt='Icon' />
                 </a>
                 <a
